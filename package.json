@@ -1,0 +1,10 @@
+{
+  "name": "brake-scalajs",
+  "version": "0.3.1",
+  "private": true,
+  "dependencies": {
+    "brake": "^1.0.1",
+    "readable-stream": "^2.2.2",
+    "source-map": "^0.5.6"
+  }
+}
