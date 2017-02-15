@@ -1,6 +1,6 @@
 {
-  "name": "brake-scalajs",
-  "version": "0.3.1",
+  "name": "brake-sjs",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "brake": "^1.0.1",
