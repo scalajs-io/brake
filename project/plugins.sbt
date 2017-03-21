@@ -8,9 +8,11 @@ addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "1.1")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.8.3")
 
-// Resolvers
+// Formatting
 
 addSbtPlugin("com.geirsson" % "sbt-scalafmt" % "0.5.5")
+
+// Resolvers
 
 resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
