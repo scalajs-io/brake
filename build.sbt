@@ -5,7 +5,7 @@ import sbt._
 
 import scala.language.postfixOps
 
-val scalaJsIOVersion = "0.4.0-pre4"
+val scalaJsIOVersion = "0.4.0-pre5"
 val apiVersion = scalaJsIOVersion
 val scalaJsVersion = "2.12.1"
 
@@ -27,7 +27,7 @@ lazy val root = (project in file(".")).
       "org.scala-lang" % "scala-reflect" % scalaJsVersion,
       "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
       "io.scalajs" %%% "nodejs" % scalaJsIOVersion,
-      "io.scalajs.npm" %%% "readable-stream" % "2.2.6" % "test"
+      "io.scalajs.npm" %%% "readable-stream" % scalaJsIOVersion % "test"
     ))
 
 /////////////////////////////////////////////////////////////////////////////////
