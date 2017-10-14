@@ -4,7 +4,7 @@ import io.scalajs.RawOptions
 import io.scalajs.nodejs.stream.{Readable, Writable}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
+import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
 /**
@@ -38,6 +38,6 @@ object Brake extends Brake
   * @param rate   How many bytes to emit for each interval of length period
   * @param period How often to check the output length in milliseconds. Default value: 1000.
   */
-@ScalaJSDefined
+
 class ThrottleOptions(var rate: js.UndefOr[Double] = js.undefined,
                       var period: js.UndefOr[Int] = js.undefined) extends js.Object
