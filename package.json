@@ -1,10 +1,10 @@
 {
   "name": "brake-sjs",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "private": true,
   "dependencies": {
     "brake": "^1.0.1",
-    "readable-stream": "^2.2.2",
-    "source-map-support": "^0.4.14"
+    "readable-stream": "^3.4.0",
+    "source-map-support": "^0.5.12"
   }
 }
